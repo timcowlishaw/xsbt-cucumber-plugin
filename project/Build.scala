@@ -5,7 +5,7 @@ object Settings {
   val buildOrganization = "templemore"
   val buildScalaVersion = "2.11.2"
   val crossBuildScalaVersions = Seq("2.9.3", "2.10.4", "2.11.2")
-  val buildVersion      = "0.8.0"
+  val buildVersion      = "0.8.1"
 
   val buildSettings = Defaults.defaultSettings ++
                       Seq (organization  := buildOrganization,
